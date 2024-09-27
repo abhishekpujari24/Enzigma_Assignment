@@ -1,0 +1,29 @@
+.table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+  }
+  
+  .table .task-row {
+    transition: background-color 0.3s;
+  }
+  
+  .table .task-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table .completed {
+    background-color: #d4edda; /* Light green for completed tasks */
+  }
+  
+  .table .in-progress {
+    background-color: #fff3cd; /* Light yellow for in-progress tasks */
+  }
+  
+  .table .not-started {
+    background-color: #f8d7da; /* Light red for not started tasks */
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
